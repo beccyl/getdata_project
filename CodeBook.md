@@ -15,7 +15,7 @@
 5. Additionally, it was decided to use the long form for output, as opposed to wide form.  [If so desired, the user may alter the dataset.tidy.longform variable in the run_analysis.R file, to change to wide format, however this CodeBook.md only describes the long form]
 
 # CodeBook
-## Variables:
+## Variables
 ### Activity
 A description of the activity performed.
 
@@ -34,7 +34,8 @@ A description of the activity performed.
 A numeric value in the range from 1 to 30, representing the subject who performed the activity for each sample measurement.
 
 ##### Datatype
- * numeric
+ * Numeric
+
 ##### Values
  * 1:30
 
@@ -45,78 +46,78 @@ Measurements taken - only entries that included the Mean and Standard deviation 
  * character
 
 ##### Values
-* "TimeBodyAccMeanX" corresponds to the raw measurement "tBodyAcc-mean()-X"
-* "TimeBodyAccMeanY" corresponds to the raw measurement "tBodyAcc-mean()-Y"
-* "TimeBodyAccMeanZ" corresponds to the raw measurement "tBodyAcc-mean()-Z"
-* "TimeBodyAccStdX" corresponds to the raw measurement "tBodyAcc-std()-X"
-* "TimeBodyAccStdY" corresponds to the raw measurement "tBodyAcc-std()-Y"
-* "TimeBodyAccStdZ" corresponds to the raw measurement "tBodyAcc-std()-Z"
-* "TimeGravityAccMeanX" corresponds to the raw measurement "tGravityAcc-mean()-X"
-* "TimeGravityAccMeanY" corresponds to the raw measurement "tGravityAcc-mean()-Y"
-* "TimeGravityAccMeanZ" corresponds to the raw measurement "tGravityAcc-mean()-Z"
-* "TimeGravityAccStdX" corresponds to the raw measurement "tGravityAcc-std()-X"
-* "TimeGravityAccStdY" corresponds to the raw measurement "tGravityAcc-std()-Y"
-* "TimeGravityAccStdZ" corresponds to the raw measurement "tGravityAcc-std()-Z"
-* "TimeBodyAccJerkMeanX" corresponds to the raw measurement "tBodyAccJerk-mean()-X"
-* "TimeBodyAccJerkMeanY" corresponds to the raw measurement "tBodyAccJerk-mean()-Y"
-* "TimeBodyAccJerkMeanZ" corresponds to the raw measurement "tBodyAccJerk-mean()-Z"
-* "TimeBodyAccJerkStdX" corresponds to the raw measurement "tBodyAccJerk-std()-X"
-* "TimeBodyAccJerkStdY" corresponds to the raw measurement "tBodyAccJerk-std()-Y"
-* "TimeBodyAccJerkStdZ" corresponds to the raw measurement "tBodyAccJerk-std()-Z"
-* "TimeBodyGyroMeanX" corresponds to the raw measurement "tBodyGyro-mean()-X"
-* "TimeBodyGyroMeanY" corresponds to the raw measurement "tBodyGyro-mean()-Y"
-* "TimeBodyGyroMeanZ" corresponds to the raw measurement "tBodyGyro-mean()-Z"
-* "TimeBodyGyroStdX" corresponds to the raw measurement "tBodyGyro-std()-X"
-* "TimeBodyGyroStdY" corresponds to the raw measurement "tBodyGyro-std()-Y"
-* "TimeBodyGyroStdZ" corresponds to the raw measurement "tBodyGyro-std()-Z"
-* "TimeBodyGyroJerkMeanX" corresponds to the raw measurement "tBodyGyroJerk-mean()-X"
-* "TimeBodyGyroJerkMeanY" corresponds to the raw measurement "tBodyGyroJerk-mean()-Y"
-* "TimeBodyGyroJerkMeanZ" corresponds to the raw measurement "tBodyGyroJerk-mean()-Z"
-* "TimeBodyGyroJerkStdX" corresponds to the raw measurement "tBodyGyroJerk-std()-X"
-* "TimeBodyGyroJerkStdY" corresponds to the raw measurement "tBodyGyroJerk-std()-Y"
-* "TimeBodyGyroJerkStdZ" corresponds to the raw measurement "tBodyGyroJerk-std()-Z"
-* "TimeBodyAccMagMean" corresponds to the raw measurement "tBodyAccMag-mean()"
-* "TimeBodyAccMagStd" corresponds to the raw measurement "tBodyAccMag-std()"
-* "TimeGravityAccMagMean" corresponds to the raw measurement "tGravityAccMag-mean()"
-* "TimeGravityAccMagStd" corresponds to the raw measurement "tGravityAccMag-std()"
-* "TimeBodyAccJerkMagMean" corresponds to the raw measurement "tBodyAccJerkMag-mean()"
-* "TimeBodyAccJerkMagStd" corresponds to the raw measurement "tBodyAccJerkMag-std()"
-* "TimeBodyGyroMagMean" corresponds to the raw measurement "tBodyGyroMag-mean()"
-* "TimeBodyGyroMagStd" corresponds to the raw measurement "tBodyGyroMag-std()"
-* "TimeBodyGyroJerkMagMean" corresponds to the raw measurement "tBodyGyroJerkMag-mean()"
-* "TimeBodyGyroJerkMagStd" corresponds to the raw measurement "tBodyGyroJerkMag-std()"
-* "FreqBodyAccMeanX" corresponds to the raw measurement "fBodyAcc-mean()-X"
-* "FreqBodyAccMeanY" corresponds to the raw measurement "fBodyAcc-mean()-Y"
-* "FreqBodyAccMeanZ" corresponds to the raw measurement "fBodyAcc-mean()-Z"
-* "FreqBodyAccStdX" corresponds to the raw measurement "fBodyAcc-std()-X"
-* "FreqBodyAccStdY" corresponds to the raw measurement "fBodyAcc-std()-Y"
-* "FreqBodyAccStdZ" corresponds to the raw measurement "fBodyAcc-std()-Z"
-* "FreqBodyAccJerkMeanX" corresponds to the raw measurement "fBodyAccJerk-mean()-X"
-* "FreqBodyAccJerkMeanY" corresponds to the raw measurement "fBodyAccJerk-mean()-Y"
-* "FreqBodyAccJerkMeanZ" corresponds to the raw measurement "fBodyAccJerk-mean()-Z"
-* "FreqBodyAccJerkStdX" corresponds to the raw measurement "fBodyAccJerk-std()-X"
-* "FreqBodyAccJerkStdY" corresponds to the raw measurement "fBodyAccJerk-std()-Y"
-* "FreqBodyAccJerkStdZ" corresponds to the raw measurement "fBodyAccJerk-std()-Z"
-* "FreqBodyGyroMeanX" corresponds to the raw measurement "fBodyGyro-mean()-X"
-* "FreqBodyGyroMeanY" corresponds to the raw measurement "fBodyGyro-mean()-Y"
-* "FreqBodyGyroMeanZ" corresponds to the raw measurement "fBodyGyro-mean()-Z"
-* "FreqBodyGyroStdX" corresponds to the raw measurement "fBodyGyro-std()-X"
-* "FreqBodyGyroStdY" corresponds to the raw measurement "fBodyGyro-std()-Y"
-* "FreqBodyGyroStdZ" corresponds to the raw measurement "fBodyGyro-std()-Z"
-* "FreqBodyAccMagMean" corresponds to the raw measurement "fBodyAccMag-mean()"
-* "FreqBodyAccMagStd" corresponds to the raw measurement "fBodyAccMag-std()"
-* "FreqBodyAccJerkMagMean" corresponds to the raw measurement "fBodyBodyAccJerkMag-mean()"
-* "FreqBodyAccJerkMagStd" corresponds to the raw measurement "fBodyBodyAccJerkMag-std()"
-* "FreqBodyGyroMagMean" corresponds to the raw measurement "fBodyBodyGyroMag-mean()"
-* "FreqBodyGyroMagStd" corresponds to the raw measurement "fBodyBodyGyroMag-std()"
-* "FreqBodyGyroJerkMagMean" corresponds to the raw measurement "fBodyBodyGyroJerkMag-mean()"
-* "FreqBodyGyroJerkMagStd" corresponds to the raw measurement "fBodyBodyGyroJerkMag-std()"
+* "TimeBodyAccMeanX" - corresponds to the raw measurement "tBodyAcc-mean()-X"
+* "TimeBodyAccMeanY" - corresponds to the raw measurement "tBodyAcc-mean()-Y"
+* "TimeBodyAccMeanZ" - corresponds to the raw measurement "tBodyAcc-mean()-Z"
+* "TimeBodyAccStdX" - corresponds to the raw measurement "tBodyAcc-std()-X"
+* "TimeBodyAccStdY" - corresponds to the raw measurement "tBodyAcc-std()-Y"
+* "TimeBodyAccStdZ" - corresponds to the raw measurement "tBodyAcc-std()-Z"
+* "TimeGravityAccMeanX" - corresponds to the raw measurement "tGravityAcc-mean()-X"
+* "TimeGravityAccMeanY" - corresponds to the raw measurement "tGravityAcc-mean()-Y"
+* "TimeGravityAccMeanZ" - corresponds to the raw measurement "tGravityAcc-mean()-Z"
+* "TimeGravityAccStdX" - corresponds to the raw measurement "tGravityAcc-std()-X"
+* "TimeGravityAccStdY" - corresponds to the raw measurement "tGravityAcc-std()-Y"
+* "TimeGravityAccStdZ" - corresponds to the raw measurement "tGravityAcc-std()-Z"
+* "TimeBodyAccJerkMeanX" - corresponds to the raw measurement "tBodyAccJerk-mean()-X"
+* "TimeBodyAccJerkMeanY" - corresponds to the raw measurement "tBodyAccJerk-mean()-Y"
+* "TimeBodyAccJerkMeanZ" - corresponds to the raw measurement "tBodyAccJerk-mean()-Z"
+* "TimeBodyAccJerkStdX" - corresponds to the raw measurement "tBodyAccJerk-std()-X"
+* "TimeBodyAccJerkStdY" - corresponds to the raw measurement "tBodyAccJerk-std()-Y"
+* "TimeBodyAccJerkStdZ" - corresponds to the raw measurement "tBodyAccJerk-std()-Z"
+* "TimeBodyGyroMeanX" - corresponds to the raw measurement "tBodyGyro-mean()-X"
+* "TimeBodyGyroMeanY" - corresponds to the raw measurement "tBodyGyro-mean()-Y"
+* "TimeBodyGyroMeanZ" - corresponds to the raw measurement "tBodyGyro-mean()-Z"
+* "TimeBodyGyroStdX" - corresponds to the raw measurement "tBodyGyro-std()-X"
+* "TimeBodyGyroStdY" - corresponds to the raw measurement "tBodyGyro-std()-Y"
+* "TimeBodyGyroStdZ" - corresponds to the raw measurement "tBodyGyro-std()-Z"
+* "TimeBodyGyroJerkMeanX" - corresponds to the raw measurement "tBodyGyroJerk-mean()-X"
+* "TimeBodyGyroJerkMeanY" - corresponds to the raw measurement "tBodyGyroJerk-mean()-Y"
+* "TimeBodyGyroJerkMeanZ" - corresponds to the raw measurement "tBodyGyroJerk-mean()-Z"
+* "TimeBodyGyroJerkStdX" - corresponds to the raw measurement "tBodyGyroJerk-std()-X"
+* "TimeBodyGyroJerkStdY" - corresponds to the raw measurement "tBodyGyroJerk-std()-Y"
+* "TimeBodyGyroJerkStdZ" - corresponds to the raw measurement "tBodyGyroJerk-std()-Z"
+* "TimeBodyAccMagMean" - corresponds to the raw measurement "tBodyAccMag-mean()"
+* "TimeBodyAccMagStd" - corresponds to the raw measurement "tBodyAccMag-std()"
+* "TimeGravityAccMagMean" - corresponds to the raw measurement "tGravityAccMag-mean()"
+* "TimeGravityAccMagStd" - corresponds to the raw measurement "tGravityAccMag-std()"
+* "TimeBodyAccJerkMagMean" - corresponds to the raw measurement "tBodyAccJerkMag-mean()"
+* "TimeBodyAccJerkMagStd" - corresponds to the raw measurement "tBodyAccJerkMag-std()"
+* "TimeBodyGyroMagMean" - corresponds to the raw measurement "tBodyGyroMag-mean()"
+* "TimeBodyGyroMagStd" - corresponds to the raw measurement "tBodyGyroMag-std()"
+* "TimeBodyGyroJerkMagMean" - corresponds to the raw measurement "tBodyGyroJerkMag-mean()"
+* "TimeBodyGyroJerkMagStd" - corresponds to the raw measurement "tBodyGyroJerkMag-std()"
+* "FreqBodyAccMeanX" - corresponds to the raw measurement "fBodyAcc-mean()-X"
+* "FreqBodyAccMeanY" - corresponds to the raw measurement "fBodyAcc-mean()-Y"
+* "FreqBodyAccMeanZ" - corresponds to the raw measurement "fBodyAcc-mean()-Z"
+* "FreqBodyAccStdX" - corresponds to the raw measurement "fBodyAcc-std()-X"
+* "FreqBodyAccStdY" - corresponds to the raw measurement "fBodyAcc-std()-Y"
+* "FreqBodyAccStdZ" - corresponds to the raw measurement "fBodyAcc-std()-Z"
+* "FreqBodyAccJerkMeanX" - corresponds to the raw measurement "fBodyAccJerk-mean()-X"
+* "FreqBodyAccJerkMeanY" - corresponds to the raw measurement "fBodyAccJerk-mean()-Y"
+* "FreqBodyAccJerkMeanZ" - corresponds to the raw measurement "fBodyAccJerk-mean()-Z"
+* "FreqBodyAccJerkStdX" - corresponds to the raw measurement "fBodyAccJerk-std()-X"
+* "FreqBodyAccJerkStdY" - corresponds to the raw measurement "fBodyAccJerk-std()-Y"
+* "FreqBodyAccJerkStdZ" - corresponds to the raw measurement "fBodyAccJerk-std()-Z"
+* "FreqBodyGyroMeanX" - corresponds to the raw measurement "fBodyGyro-mean()-X"
+* "FreqBodyGyroMeanY" - corresponds to the raw measurement "fBodyGyro-mean()-Y"
+* "FreqBodyGyroMeanZ" - corresponds to the raw measurement "fBodyGyro-mean()-Z"
+* "FreqBodyGyroStdX" - corresponds to the raw measurement "fBodyGyro-std()-X"
+* "FreqBodyGyroStdY" - corresponds to the raw measurement "fBodyGyro-std()-Y"
+* "FreqBodyGyroStdZ" - corresponds to the raw measurement "fBodyGyro-std()-Z"
+* "FreqBodyAccMagMean" - corresponds to the raw measurement "fBodyAccMag-mean()"
+* "FreqBodyAccMagStd" - corresponds to the raw measurement "fBodyAccMag-std()"
+* "FreqBodyAccJerkMagMean" - corresponds to the raw measurement "fBodyBodyAccJerkMag-mean()"
+* "FreqBodyAccJerkMagStd" - corresponds to the raw measurement "fBodyBodyAccJerkMag-std()"
+* "FreqBodyGyroMagMean" - corresponds to the raw measurement "fBodyBodyGyroMag-mean()"
+* "FreqBodyGyroMagStd" - corresponds to the raw measurement "fBodyBodyGyroMag-std()"
+* "FreqBodyGyroJerkMagMean" - corresponds to the raw measurement "fBodyBodyGyroJerkMag-mean()"
+* "FreqBodyGyroJerkMagStd" - corresponds to the raw measurement "fBodyBodyGyroJerkMag-std()"
  
 ### Average
 The average value for each measurement, for each activity and each subject
 
 ##### Datatype
-* Numeric
+* Numeric (floating point)
 
-### Values
+##### Values
 * in the range [-1, 1]
