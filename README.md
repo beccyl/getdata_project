@@ -22,13 +22,15 @@ Download, unzip and place the raw data files in the project working directory.
 The program assumes the raw data files start in "./UCI HAR Dataset/"
 
 3. To run the program, launch R, and source("run_analysis.R")
-The '''tidy_dataset.txt''' file will be generated when run.
+The *tidy_dataset.txt* file will be generated when run.
 
 4. To read the output file (tidy_dataset.txt) back into R - you can run the
 following in R:
+```
 library(dplyr)
 data <- read.table("tidy_dataset.txt", header = TRUE)
 View(data)
+```
 
 ## Acknowledgments
 (David's Course Project FAQ) [https://class.coursera.org/getdata-011/forum/thread?thread_id=69]

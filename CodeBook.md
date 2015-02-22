@@ -1,9 +1,9 @@
 # Study Design
 - The project takes the raw data files from [UCU HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and extracts the relevant measurements.
 - The entries that are included are measurements for the mean and standard deviation.  The assumption was made to include all entries that include mean() and std() at the end.
-- Descriptive activity names were taken from the '''activity_labels.txt''' raw data file.  To "tidy" the data, the activity name was changed to camel case.
+- Descriptive activity names were taken from the *activity_labels.txt* raw data file.  To "tidy" the data, the activity name was changed to camel case.
 - Subjects are [1-30] as per the raw data files.
-- Descriptive feature names were taken from the '''features.txt''' raw data file. To tidy the data, the characters '-', and '()' were stripped, the names converted to camel case.  Errors in the naming (BodyBody) were corrected. (see '''features_info.txt''' for more information).
+- Descriptive feature names were taken from the *features.txt* raw data file. To tidy the data, the characters '-', and '()' were stripped, the names converted to camel case.  Errors in the naming (BodyBody) were corrected. (see *features_info.txt* for more information).
 - Averages (the mean) for each measurement (feature) were calculated, for each activity and subject.
 - The tidy data output includes the average of each measurement, for each subject and activity.
 - The project R script (run_analysis.R) performs the following to clean up the data:
